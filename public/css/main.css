@@ -1,0 +1,116 @@
+/* ---------------- */
+/*  ESTILO MINECRAFT */
+/* ---------------- */
+
+/* Fondo general */
+body {
+    background: #1e1e1e; /* Fondo oscuro como el oficial */
+    color: #ffffff; /* Texto blanco */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente similar a la oficial */
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal */
+.minecraft-title {
+    font-size: 3rem;
+    color: #48be19; /* Verde clásico de Minecraft */
+    text-shadow: 2px 2px 0 #1e6c0d, 4px 4px 0 #0f3b07; /* Sombra 3D */
+    text-align: center;
+}
+
+/* Navbar estilo Minecraft */
+.navbar {
+    background: #242424 !important;  /* Fondo oscuro */
+    border-bottom: 4px solid #48be19 !important; /* Línea verde césped */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7) !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;  /* Blanco */
+    font-weight: bold !important;
+    transition: 0.3s;
+    letter-spacing: 0.05rem;
+}
+
+.nav-link:hover {
+    color: #48be19 !important;  /* Verde hover */
+    transform: scale(1.1) !important;
+}
+
+
+/* Contenedor principal */
+.container {
+    background: #2c2c2c; /* Fondo gris oscuro */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
+}
+
+/* Estilo para las imágenes */
+.img-container {
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.img-container img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px; /* Bordes redondeados */
+    border: 5px solid #48be19; /* Verde césped */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.img-container:hover {
+    transform: translateY(-8px);
+}
+
+/* Textos de las imágenes */
+.img-container p {
+    color: #ffffff; /* Blanco */
+    font-size: 1.3rem;
+    margin-top: 10px;
+    letter-spacing: 0.05rem;
+}
+
+/* Footer estilo Minecraft */
+footer {
+    background: #242424;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 4px solid #48be19; /* Línea verde césped */
+}
+
+/* Botón estilo Minecraft */
+.btn-minecraft {
+    background: #48be19; /* Verde */
+    color: #ffffff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1rem;
+    transition: all 0.3s;
+    text-transform: uppercase;
+}
+
+.btn-minecraft:hover {
+    background: #3a9e16; /* Verde más oscuro */
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(72, 190, 25, 0.5);
+}
+
+/* Scroll personalizado */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #48be19;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c;
+}

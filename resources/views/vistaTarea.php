@@ -1,1 +1,0 @@
-<h1>vistaTArea</h1>

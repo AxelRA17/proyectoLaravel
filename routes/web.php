@@ -7,13 +7,7 @@ Route::get('/', function () {
 });
 
 Route::get('/home',[InicioController::class,'index']);
-
-Route::get('/vista1',[InicioController::class,'vista1']);
-Route::get('/vista2',[InicioController::class,'vista2']);
-Route::get('/vista3',[InicioController::class,'vista3']);
-
-Route::get('/vistaTarea',[InicioController::class,'vistaTarea']);
-
-Route::get('/inicio',function(){
-    return view('inicio');
-});
+Route::get('/minecraft',[InicioController::class,'minecraft']);
+Route::get('/movie',[InicioController::class,'movie']);
+Route::get('/dungeons',[InicioController::class,'dungeons']);
+Route::get('/legends',[InicioController::class,'legends']);

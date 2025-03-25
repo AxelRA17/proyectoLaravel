@@ -9,16 +9,16 @@ class InicioController extends Controller
     public function index(){
         return view("home");
     }
-    public function vista1(){
-        return view("vista1");
+    public function minecraft(){
+        return view("minecraft");
     }
-    public function vista2(){
-        return view("vista2");
+    public function movie(){
+        return view("movie");
     }
-    public function vista3(){
-        return view("vista3");
+    public function dungeons(){
+        return view("dungeons");
     }
-    public function vistaTarea(){
-        return view("vistaTarea");
+    public function legends(){
+        return view("legends");
     }
 }
