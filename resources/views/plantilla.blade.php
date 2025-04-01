@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     
-    <title>Practica Blade</title>
+    <title>{{$titulo}}</title>
 </head>
 
 <body>
@@ -26,11 +26,9 @@
         <div class="container mt-4">
             @yield('contenido')
         </div>
+        @include('components/footer')
     </section>
 
-    <footer class="bg-dark text-white text-center py-3 mt-4">
-        <p>&copy; Todos los derechos reservados para Axel Ronquillo :p</p>
-    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
